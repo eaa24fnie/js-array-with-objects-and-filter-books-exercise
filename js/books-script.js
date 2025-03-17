@@ -41,7 +41,7 @@ function displayBooks(booksList) {
         booksElem.innerHTML = `
         <h3>${books.title}</h3>
         <p>Forfatter: ${books.author}</p>
-        <p>genre: ${books.genre}</p>
+        <p>genre: ${books.category}</p>
         <p>År: ${books.year}</p>
         <figure>
             <a href="${books.url}" target="_blank">
